@@ -1,0 +1,44 @@
+Source: mousepad
+Section: editors
+Priority: optional
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Uploaders: Yves-Alexis Perez <corsac@debian.org>
+Build-Depends: debhelper-compat (= 12),
+               intltool,
+               libglib2.0-dev,
+               libgtksourceview-3.0-dev,
+               libxfconf-0-dev (>= 4.12),
+               pkg-config,
+               xfce4-dev-tools (>= 4.16)
+Rules-Requires-Root: no
+Standards-Version: 4.5.1
+Homepage: https://docs.xfce.org/apps/mousepad/start
+Vcs-Git: https://salsa.debian.org/xfce-team/apps/mousepad.git
+Vcs-Browser: https://salsa.debian.org/xfce-team/apps/mousepad
+
+Package: mousepad
+Section: xfce
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: simple Xfce oriented text editor
+ Mousepad is a graphical text editor for Xfce based on Leafpad.
+ .
+ The initial reason for Mousepad was to provide printing support, which would
+ have been difficult for Leafpad for various reasons.
+ .
+ Although some features are under development, currently Mousepad has the
+ following features:
+   * Complete support for UTF-8 text
+   * Cut/Copy/Paste and Select All text
+   * Search and Replace
+   * Font selection
+   * Word Wrap
+   * Character coding selection
+   * Auto character coding detection (UTF-8 and some code-sets)
+   * Manual code-set setting
+   * Infinite Undo/Redo by word
+   * Auto Indent
+   * Multi-line Indent
+   * Display line numbers
+   * Drag and Drop
+   * Printing

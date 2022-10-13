@@ -1,0 +1,40 @@
+#
+# Sources
+#
+mousepad/main.c
+mousepad/mousepad-application.c
+mousepad/mousepad-dialogs.c
+mousepad/mousepad-document.c
+mousepad/mousepad-encoding-dialog.c
+mousepad/mousepad-encoding.c
+mousepad/mousepad-file.c
+mousepad/mousepad-prefs-dialog.c
+mousepad/mousepad-print.c
+mousepad/mousepad-replace-dialog.c
+mousepad/mousepad-search-bar.c
+mousepad/mousepad-settings.c
+mousepad/mousepad-settings-store.c
+mousepad/mousepad-statusbar.c
+mousepad/mousepad-util.c
+mousepad/mousepad-view.c
+mousepad/mousepad-window.c
+[type: gettext/glade]mousepad/resources/gtk/menus.ui
+[type: gettext/glade]mousepad/resources/gtk/menus-common.ui
+[type: gettext/glade]mousepad/resources/ui/mousepad-prefs-dialog.ui
+
+
+
+#
+# Desktop Files
+#
+mousepad.desktop.in.in
+
+#
+# Appdata Files
+#
+mousepad.appdata.xml.in
+
+#
+# Polkit File
+#
+org.xfce.mousepad.policy.in.in
